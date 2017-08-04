@@ -9,24 +9,24 @@ Here is few basic functionality for a card game like shuffle, draw etc
     const Deck = require('card_deck');
     let deck =  new Deck();
  ```
-## It will return an array of 52 cards (shuffled)
+## Shuffle
  ```js
-    var newDeck =  deck.shuffle();
+    var newDeck =  deck.shuffle(); // It will return an array of 52 cards (shuffled)
  ```
             
 
-## It will return % random card from the shuffled deck.
+## Draw(count)
   ```js
-    var draw = deck.draw(5);
+    var draw = deck.draw(5); // It will return 5 random card from the existing deck.
   ```
             
 
-//Add multiple deck
+## Add Deck
  ```js
     var newDeck = deck.add(3); // It will return 52 * 3 shuffled cards.
  ```
             
-// Get left out cards after each draw
+## Left Cards
  ```js
-    var leftOutCards = deck.left();
+    var leftOutCards = deck.left(); // Get left out cards after draw
  ```
