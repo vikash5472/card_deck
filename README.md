@@ -2,7 +2,9 @@
 Here is few basic functionality for a card game like shuffle, draw etc
 
 # Installation
-  pm install card_deck --save
+```js
+  npm install card_deck --save
+```
 
 # Usage
  ```js
