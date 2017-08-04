@@ -5,7 +5,7 @@ Here is few basic functionality for a card game like shuffle, draw etc
   pm install card_deck --save
 
 # Usage
-const Deck = require('card-deck');
+const Deck = require('card_deck');
 let deck =  new Deck();
 
  // It will return an array of 52 cards (shuffled)
