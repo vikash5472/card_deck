@@ -2,7 +2,7 @@
 Here is few basic functionality for a card game like shuffle, draw etc
 
 # Installation
-Clone it and store it in node_modules.
+  pm install card_deck --save
 
 # Usage
 const Deck = require('card-deck');
